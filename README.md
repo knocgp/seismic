@@ -6,16 +6,28 @@
 
 ## 🚀 빠른 시작
 
-### 🌟 Google Colab에서 실행 (추천!)
+### 🌟 Option 1: 기본 시뮬레이션 (단일 트레이스)
 **완전 독립 실행형 노트북 - 외부 파일 불필요!**
 
-👉 **[Google Colab에서 바로 실행하기](https://colab.research.google.com/github/knocgp/seismic/blob/main/Marine_Seismic_Standalone.ipynb)**
+👉 **[Marine Seismic Simulation - Colab에서 실행](https://colab.research.google.com/github/knocgp/seismic/blob/main/Marine_Seismic_Standalone.ipynb)**
 
-- ✅ 모든 코드가 노트북에 내장
-- ✅ GitHub 접근 불필요
-- ✅ 설치 없이 바로 실행
-- ✅ "런타임 > 모두 실행" 클릭으로 완료
-- ✅ 결과 다운로드 가능
+- ✅ 합성 지반 모델 생성
+- ✅ 단일 트레이스 탄성파 데이터
+- ✅ 멀티플 시뮬레이션
+- ✅ 해상 노이즈 추가
+- ✅ 주파수 스펙트럼 분석
+
+### 🎯 Option 2: Shot Gather 워크플로우 (다중 트레이스) ⭐ **NEW!**
+**랜덤 모델 생성 → Shot Gather → 노이즈 제거 → 비교**
+
+👉 **[Shot Gather Workflow - Colab에서 실행](https://colab.research.google.com/github/knocgp/seismic/blob/main/Shot_Gather_Workflow.ipynb)**
+
+- ✅ 완전 랜덤 합성 모델
+- ✅ 48개 트레이스 Shot Gather 생성
+- ✅ 실제적인 노이즈 추가 (Ground Roll, 스파이크 등)
+- ✅ 고급 노이즈 제거 (F-K 필터, 밴드패스, Median)
+- ✅ 3개 파일 다운로드 (Clean, Noisy, Denoised)
+- 📖 **[Shot Gather 상세 가이드](SHOT_GATHER_GUIDE.md)**
 
 **이전 버전** (GitHub 클론 방식): [Marine_Seismic_Simulation.ipynb](https://colab.research.google.com/github/knocgp/seismic/blob/main/Marine_Seismic_Simulation.ipynb)
 
