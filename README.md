@@ -20,14 +20,24 @@
 ### 🎯 Option 2: Shot Gather 워크플로우 (다중 트레이스) ⭐ **NEW!**
 **랜덤 모델 생성 → Shot Gather → 노이즈 제거 → 비교**
 
-👉 **[Shot Gather Workflow - Colab에서 실행](https://colab.research.google.com/github/knocgp/seismic/blob/main/Shot_Gather_Workflow.ipynb)**
+#### 🌟 **A. 대화형 노트북 (단계별 실행, 추천!)** 
+👉 **[Shot Gather Interactive - 각 단계마다 결과 확인](https://colab.research.google.com/github/knocgp/seismic/blob/main/Shot_Gather_Interactive.ipynb)**
+
+- ✅ **셀 단위 실행** - 각 단계를 실행하면서 즉시 결과 확인
+- ✅ **9개 단계**로 세분화 (모델 → Shot → 노이즈 → 제거 → 비교 → 분석)
+- ✅ 각 단계마다 **즉시 시각화** 및 통계 출력
+- ✅ 원하는 단계부터 재실행 가능
+
+#### 📦 **B. 자동 실행 노트북 (한 번에 실행)**
+👉 **[Shot Gather Workflow - 전체 자동 실행](https://colab.research.google.com/github/knocgp/seismic/blob/main/Shot_Gather_Workflow.ipynb)**
 
 - ✅ 완전 랜덤 합성 모델
 - ✅ 48개 트레이스 Shot Gather 생성
 - ✅ 실제적인 노이즈 추가 (Ground Roll, 스파이크 등)
 - ✅ 고급 노이즈 제거 (F-K 필터, 밴드패스, Median)
 - ✅ 3개 파일 다운로드 (Clean, Noisy, Denoised)
-- 📖 **[Shot Gather 상세 가이드](SHOT_GATHER_GUIDE.md)**
+
+📖 **[Shot Gather 상세 가이드](SHOT_GATHER_GUIDE.md)**
 
 **이전 버전** (GitHub 클론 방식): [Marine_Seismic_Simulation.ipynb](https://colab.research.google.com/github/knocgp/seismic/blob/main/Marine_Seismic_Simulation.ipynb)
 
