@@ -1,6 +1,33 @@
 # 해상 탄성파 탐사 시뮬레이션 (Marine Seismic Survey Simulation)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/knocgp/seismic/blob/main/Marine_Seismic_Simulation.ipynb)
+
 해상 탄성파 탐사의 합성 데이터 생성 및 시뮬레이션 프로그램입니다.
+
+## 🚀 빠른 시작
+
+### Google Colab에서 실행 (추천!)
+설치 없이 브라우저에서 바로 실행하세요:
+
+👉 **[Google Colab에서 열기](https://colab.research.google.com/github/knocgp/seismic/blob/main/Marine_Seismic_Simulation.ipynb)**
+
+- ✅ 설치 불필요
+- ✅ 무료 GPU 사용
+- ✅ 클릭만으로 실행
+- ✅ 결과 다운로드 가능
+
+### 로컬에서 실행
+```bash
+# 저장소 클론
+git clone https://github.com/knocgp/seismic.git
+cd seismic
+
+# 패키지 설치
+pip install -r requirements.txt
+
+# 실행
+python marine_seismic_simulation.py
+```
 
 ## 주요 기능
 
